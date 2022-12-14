@@ -108,6 +108,14 @@
   margin-left: 0.5rem;
 }
 
+.backButton {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
