@@ -17,11 +17,11 @@ export default function Checkout() {
         <main className={styles.main}>
         <div style={{height: '800px', width: '800px'}}>
         <CircleCheckout
-        sessionId={checkoutData[0].checkoutId}
+        sessionId={checkoutData[1].checkoutId}
         environment="sandbox"
-        clientKey={checkoutData[0].checkoutKey}
+        clientKey={checkoutData[1].checkoutKey}
         options={{
-          merchantName: 'RTFKT - Cryptokicks iRL “STONE”',
+          merchantName: 'Lockerverse',
           theme: {
             themeType: 'dark',
              backgroundPrimary: '#3D3652',
