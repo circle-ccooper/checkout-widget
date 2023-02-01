@@ -10,7 +10,7 @@ export default function Checkout() {
     return (
         <div className={styles.container}>
             <div className={styles.backButton}>
-            <Link href="/" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            <Link href="/" className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Back
             </Link>
             </div>
@@ -21,7 +21,7 @@ export default function Checkout() {
         environment="sandbox"
         clientKey={checkoutData[0].checkoutKey}
         options={{
-          merchantName: 'Lockerverse',
+          merchantName: 'OurSong',
           theme: {
             themeType: 'dark',
              backgroundPrimary: '#3D3652',

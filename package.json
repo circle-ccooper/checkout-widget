@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@circle-fin/circle-sdk": "^1.4.0",
     "@circle-fin/circle-widgets-sdk": "1.0.0",
     "@types/node": "18.11.12",
     "@types/react": "18.0.26",

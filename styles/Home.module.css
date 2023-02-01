@@ -1,6 +1,19 @@
 .container {
   padding: 0 2rem;
-  background-color: #FF6700;
+  background-color: #f0f0f0;
+}
+
+.about {
+  padding: 0 2rem;
+  background-color: #ffffff;
+}
+
+.formWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
 }
 
 .main {
